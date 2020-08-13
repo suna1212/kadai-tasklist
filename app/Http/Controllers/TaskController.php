@@ -21,7 +21,7 @@ class TaskController extends Controller
          
              
          }
-            return view('tasks.index', [
+            return view('welcome', [
                 'tasks' => $tasks,
                 ]);
             
